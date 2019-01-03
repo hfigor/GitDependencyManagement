@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3CC4B78021D542960020AF7E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4B77F21D542960020AF7E /* README.txt */; };
+		3CC4B79F21DD9BD00020AF7E /* ImaggaRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC4B79D21DD99540020AF7E /* ImaggaRouter.framework */; };
 		932ED1F71BF9390D0072C1C4 /* PhotoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932ED1F61BF9390D0072C1C4 /* PhotoColor.swift */; };
 		932ED1F91BF944590072C1C4 /* TagsColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932ED1F81BF944590072C1C4 /* TagsColorsViewController.swift */; };
 		932ED1FB1BF9459E0072C1C4 /* TagsColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932ED1FA1BF9459E0072C1C4 /* TagsColorsTableViewController.swift */; };
@@ -50,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CC4B79F21DD9BD00020AF7E /* ImaggaRouter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +66,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3CC4B79E21DD9BD00020AF7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93EF0C971BF41DA20051B5B1 = {
 			isa = PBXGroup;
 			children = (
 				3CC4B79821DD99540020AF7E /* ImaggaRouter.xcodeproj */,
 				93EF0CA21BF41DA20051B5B1 /* PhotoTagger */,
 				93EF0CA11BF41DA20051B5B1 /* Products */,
+				3CC4B79E21DD9BD00020AF7E /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";

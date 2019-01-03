@@ -19,8 +19,19 @@
 		9569363E1E0B06AC00B49A5A /* TagsColorTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569363D1E0B06AC00B49A5A /* TagsColorTableData.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3CC4B79C21DD99540020AF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC4B79821DD99540020AF7E /* ImaggaRouter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3CC4B78B21D5659E0020AF7E;
+			remoteInfo = ImaggaRouter;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		3CC4B77F21D542960020AF7E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		3CC4B79821DD99540020AF7E /* ImaggaRouter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ImaggaRouter.xcodeproj; path = Frameworks/Internal/ImaggaRouter/ImaggaRouter.xcodeproj; sourceTree = "<group>"; };
 		932ED1F61BF9390D0072C1C4 /* PhotoColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoColor.swift; sourceTree = "<group>"; };
 		932ED1F81BF944590072C1C4 /* TagsColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsColorsViewController.swift; sourceTree = "<group>"; };
 		932ED1FA1BF9459E0072C1C4 /* TagsColorsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsColorsTableViewController.swift; sourceTree = "<group>"; };
@@ -45,9 +56,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CC4B79921DD99540020AF7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CC4B79D21DD99540020AF7E /* ImaggaRouter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		93EF0C971BF41DA20051B5B1 = {
 			isa = PBXGroup;
 			children = (
+				3CC4B79821DD99540020AF7E /* ImaggaRouter.xcodeproj */,
 				93EF0CA21BF41DA20051B5B1 /* PhotoTagger */,
 				93EF0CA11BF41DA20051B5B1 /* Products */,
 			);
@@ -128,12 +148,28 @@
 			mainGroup = 93EF0C971BF41DA20051B5B1;
 			productRefGroup = 93EF0CA11BF41DA20051B5B1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3CC4B79921DD99540020AF7E /* Products */;
+					ProjectRef = 3CC4B79821DD99540020AF7E /* ImaggaRouter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				93EF0C9F1BF41DA20051B5B1 /* PhotoTagger */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3CC4B79D21DD99540020AF7E /* ImaggaRouter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ImaggaRouter.framework;
+			remoteRef = 3CC4B79C21DD99540020AF7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		93EF0C9E1BF41DA20051B5B1 /* Resources */ = {
